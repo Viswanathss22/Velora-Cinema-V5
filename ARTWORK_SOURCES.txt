@@ -1,0 +1,31 @@
+VELORA CINEMA — COLLECTIONS V3
+Front End Only / Noncommercial Student Prototype
+
+Credits and sources of authentic film and television artwork
+
+1. Film posters and cinematic backdrops
+   The Movie Database (TMDb): https://www.themoviedb.org/
+   Image CDN: https://image.tmdb.org/t/p/
+   Some preselected movie records have corresponding known movie poster paths.
+
+2. Additional movie posters (title and year matched)
+   Apple iTunes Store Search API:
+   https://performance-partners.apple.com/search-api
+   Only images from catalogued films with an exact title and release year match
+   are accepted. Apple and iTunes logos are not used.
+
+3. Television show posters (title and year matched)
+   TVmaze public API: https://www.tvmaze.com/api
+   Search endpoint: https://api.tvmaze.com/search/shows?q=...
+   TVmaze data attribution: TVmaze (CC BY-SA 4.0 as applicable to data).
+   Poster copyright remains with the original owners.
+
+4. Anime series artwork (canonical/alternate name and year matched)
+   Jikan REST API: https://jikan.moe/
+   Jikan is an unofficial MyAnimeList API, not endorsed by MyAnimeList.
+   Image copyright remains with the original owners.
+
+The app caches images under assets/posters and assets/backdrops after downloading.
+No film/series/anime artwork is synthesized, and missing posters are visibly marked.
+No images, movie clips, episodes or full videos are hosted by this project.
+Do not redistribute downloaded posters as your own artwork.

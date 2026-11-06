@@ -1,0 +1,15 @@
+Velora Cinema V5 QA — 2026-11-06
+
+PASS: Original V3 UI navigation tested on headless Linux Tkinter.
+PASS: Home, Movies, TV Shows, Anime, Saved, About pages opened.
+PASS: Search page and scrolling smoke tests.
+PASS: Catalogue contains 76 entries including 20 anime.
+PASS: Exactly 20 specific anime artwork URLs supplied in anime_sources.py.
+PASS: All 20 source IDs tested using simulated valid JPEG network responses.
+PASS: JPEG decode, image validation, temp file atomic saving, cache naming.
+
+NOT VERIFIED: Live artwork download success from external networks; the
+execution environment cannot retrieve image files from those services.
+The ZIP therefore contains source URLs and a robust downloader, not the
+20 actual copyrighted poster image files. Real poster fetching requires
+internet access on the user's computer.
